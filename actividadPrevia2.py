@@ -1,4 +1,5 @@
 #from sys import platform, version jeje
+#from sys import platform, version hola
 from math import sin, cos, pi, sqrt
 
 
