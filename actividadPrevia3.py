@@ -5,7 +5,7 @@ print( 'Programa para la resolución de la ecuación a x + b = 0 ')
 a = int( input('Introduzca el valor de a: ') )
 b = int( input('Introduzca el valor de b: ') )
 
-#Calculos
+#Cálculos
 if a != 0:
     x = -b / a
     print('Solución: ', x)
@@ -21,7 +21,7 @@ print( '59 Diseña un programa que lea la edad de dos personas y diga quién es 
 edad1 = int( input('Introduzca la edad de la 1º persona: ') )
 edad2 = int( input('Introduzca la edad de la 2º persona: ') )
 
-#Calculos
+#Cálculos
 res = ''
 if edad1 > edad2:
     res = 'La primera persona es mas mayor.'
@@ -39,7 +39,7 @@ print( '63 Diseña un programa que, dado un número entero, muestre por pantalla
 #Entrada de datos
 num = int( input('Introduzca el numero entero: ') )
 
-#Calculos
+#Cálculos
 res = ''
 if num % 2 == 0:
     res = 'El número es par.'
@@ -53,7 +53,7 @@ print( '64 Diseña un programa que, dado un número entero, determine si este es
 #Entrada de datos
 num = int( input('Introduzca el numero entero, para determinar si este es el doble de un numero impar o no: ') )
 
-#Calculos
+#Cálculos
 res = ''
 if num % 2 == 0 and (num/2) % 2 != 0:
     res = 'El número es el doble de un número impar.'
@@ -73,7 +73,7 @@ if cadena == cadena.lower():
 if cadena == cadena.upper():
     res = 'Es una MAYÚSCULA'
 '''
-#Calculos 
+#Cálculos 
 res =''
 if cadena >= 'a' and cadena <= 'z':
     res = 'Es una MINÚSCULA'
@@ -89,7 +89,7 @@ print( '71 Amplía la solución al ejercicio anterior para que cuando el caráct
 #Entrada de datos
 cadena = input('Introduzca el carácter: ')
 
-#Calculos
+#Cálculos
 res =''
 
 if cadena >= 'a' and cadena <= 'z':
