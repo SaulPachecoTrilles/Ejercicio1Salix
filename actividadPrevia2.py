@@ -67,7 +67,7 @@ print( '38 Diseña un programa que pida el valor de los tres lados de un triáng
 #Entrada de datos
 a = float( input('Introduzca el valor del 1º lado: ') )
 b = float( input('Introduzca el valor del 2º lado: ') )
-c = float( input('Introduzca el valor del 3º lado: ') )
+c = float( input('Introduzca el valor del 3º lado: ')  )
 
 #Calculos
 perimetro = a + b + c
